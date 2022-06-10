@@ -22,7 +22,7 @@ const run = async () => {
 
         // API to Run Server 
         app.get("/", async (req, res) => {
-            res.send("Server is Running");
+            res.send("CollegeIt server is Running");
         });
 
         //Api to get all users
